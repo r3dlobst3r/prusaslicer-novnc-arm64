@@ -27,7 +27,7 @@ mkdir -p $baseDir
 
 if [[ ! -e "$baseDir/latestReleaseInfo.json" ]]; then
 
-  curl -SsL https://api.github.com/repos/prusa3d/PrusaSlicer/releases/latest > $baseDir/latestReleaseInfo.json
+  curl -SsL https://api.github.com/repos/prusa3d/PrusaSlicer/releases/76280954 > $baseDir/latestReleaseInfo.json
 
 fi
 
